@@ -16,7 +16,7 @@
 Features
 ========
 
-* Generate sequence-diagram from dot like text (basic feature).
+* Generate sequence-diagram from DOT-like text (basic feature).
 * Multilingualization for node-label (utf-8 only).
 
 You can get some examples and generated images on 
@@ -76,7 +76,7 @@ Execute seqdiag command::
 
 Requirements
 ============
-* Python 3.7 or later
+* Python 3.8 or later
 * blockdiag 1.5.0 or later
 * funcparserlib 0.3.6 or later
 * reportlab (optional)

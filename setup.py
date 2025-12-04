@@ -8,7 +8,6 @@ classifiers = [
     "Intended Audience :: System Administrators",
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Topic :: Software Development",
@@ -50,7 +49,7 @@ setup(
     package_dir={'': 'src'},
     package_data={'': ['buildout.cfg']},
     include_package_data=True,
-    python_requires=">=3.7",
+    python_requires=">=3.8",
     install_requires=[
         'blockdiag >= 3.0.0',
     ],
